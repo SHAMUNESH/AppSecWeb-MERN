@@ -56,15 +56,6 @@ def allow():
         cv2.imshow('webcam', img)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
-"""
-                sendData(name)
-                breakLoop = True
-            if breakLoop:
-                break
-        cv2.imshow('webcam', img)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
-"""
 
 if __name__ == "__main__":
     loadEncodings()
